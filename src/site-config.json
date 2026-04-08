@@ -1,0 +1,572 @@
+{
+  "business": {
+    "name": "Virginia Beach Air Conditioning & Heating",
+    "phone": "+17572809686",
+    "category": "HVAC company",
+    "city": "Virginia Beach",
+    "state": "VA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-heritage-craft",
+      "categoryGroup": "roofing",
+      "name": "Heritage Craft",
+      "recipeFile": "roofing/heritage-craft.astro",
+      "colors": {
+        "primary": "#3D2E1F",
+        "primaryDark": "#251A10",
+        "primaryLight": "#D4C5B0",
+        "secondary": "#5C4A3A",
+        "accent": "#6B5335",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5C4A3A",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "roofing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "HVAC Experts Serving Virginia Beach",
+      "heroSubline": "Reliable heating and cooling services for homes and businesses. Quality work and honest prices.",
+      "aboutTitle": "Your Comfort is Our Priority",
+      "aboutText": [
+        "Virginia Beach Air Conditioning & Heating started with a simple goal: to provide honest, reliable HVAC services to our neighbors. We saw a need for a company that valued integrity and customer satisfaction above all else.",
+        "Our approach is straightforward: diagnose the problem accurately, explain the solution clearly, and execute the work efficiently. We use quality parts and proven techniques to ensure lasting results. We treat every home and business as if it were our own.",
+        "We're invested in the Virginia Beach community. We support local schools and charities, and we're proud to provide jobs and opportunities for our neighbors. We're not just an HVAC company; we're part of the fabric of this community."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "HVAC problems don't wait for business hours. We offer round-the-clock emergency service to get your system back up and running fast."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No hidden fees or surprises. We provide clear, detailed estimates before any work begins, so you know exactly what to expect."
+        },
+        {
+          "title": "Experienced Technicians",
+          "description": "Our team consists of highly trained and certified technicians with years of experience in the HVAC industry. We stay up-to-date on the latest technologies and techniques."
+        },
+        {
+          "title": "Satisfaction Guaranteed",
+          "description": "We stand behind our work. If you're not completely satisfied with our service, we'll do everything we can to make it right."
+        }
+      ],
+      "ctaHeadline": "Stay Comfortable Year-Round",
+      "ctaSubline": "Schedule your HVAC service today and experience the Virginia Beach Air Conditioning & Heating difference."
+    },
+    "services": [
+      {
+        "slug": "air-conditioning-repair",
+        "name": "Air Conditioning Repair",
+        "shortDescription": "Fast, reliable AC repair services to keep you cool and comfortable.",
+        "description": "Virginia Beach summers demand a properly functioning air conditioner. Our experienced technicians are equipped to diagnose and repair all makes and models of AC systems. We understand the urgency of AC repairs, especially during heat waves, and we prioritize emergency calls to get your system back online quickly. We address common issues like refrigerant leaks, compressor failures, and faulty thermostats, using quality parts and proven techniques to ensure lasting repairs. We also advise on preventative maintenance to avoid future breakdowns, considering the impact of salt air corrosion on outdoor units common in coastal communities like the Oceanfront and Sandbridge.",
+        "process": [
+          "Step 1: Thoroughly inspect your AC system to identify the root cause of the problem.",
+          "Step 2: Provide a detailed explanation of the issue and the recommended repair options.",
+          "Step 3: Perform the necessary repairs using quality parts and proven techniques.",
+          "Step 4: Test the system to ensure it's functioning efficiently and effectively."
+        ],
+        "benefits": [
+          "Reduced energy bills",
+          "Improved air quality",
+          "Extended AC lifespan",
+          "Peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my AC system serviced?",
+            "answer": "We recommend annual maintenance to keep your system running efficiently and prevent costly repairs. Regular servicing can also improve air quality and extend the lifespan of your unit."
+          },
+          {
+            "question": "What are the signs that my AC system needs repair?",
+            "answer": "Common signs include weak airflow, unusual noises, strange smells, and inconsistent cooling. If you notice any of these issues, it's best to call us for a professional inspection."
+          },
+          {
+            "question": "Do you offer emergency AC repair services?",
+            "answer": "Yes, we offer 24/7 emergency AC repair services to address urgent issues promptly and restore your comfort."
+          }
+        ]
+      },
+      {
+        "slug": "air-conditioning-installation",
+        "name": "Air Conditioning Installation",
+        "shortDescription": "Professional AC installation for optimal cooling performance and efficiency.",
+        "description": "Choosing the right air conditioning system for your Virginia Beach home is crucial for comfort and energy savings. We offer expert AC installation services, helping you select the ideal system based on your home's size, layout, and energy needs. Our technicians are experienced in installing a wide range of AC systems, from central air conditioners to ductless mini-splits. We ensure proper sizing, installation, and refrigerant charging to maximize efficiency and performance. We consider the local climate, including high humidity and potential for coastal flooding, when recommending and installing systems. We also handle the removal and disposal of old units, following all environmental regulations. Proper installation is key to avoiding problems down the road.",
+        "process": [
+          "Step 1: Assess your cooling needs and recommend the best AC system for your home.",
+          "Step 2: Provide a detailed installation plan and upfront pricing.",
+          "Step 3: Install the AC system according to manufacturer specifications and local codes.",
+          "Step 4: Test the system and ensure it's functioning optimally."
+        ],
+        "benefits": [
+          "Improved energy efficiency",
+          "Consistent cooling",
+          "Quieter operation",
+          "Increased home value"
+        ],
+        "faq": [
+          {
+            "question": "How do I choose the right size AC system for my home?",
+            "answer": "We'll perform a load calculation to determine the optimal size AC system for your home based on factors like square footage, insulation, and window area. This ensures efficient cooling without wasting energy."
+          },
+          {
+            "question": "What is the difference between central AC and ductless mini-splits?",
+            "answer": "Central AC systems use ductwork to distribute cool air throughout the home, while ductless mini-splits are individual units that can be installed in specific rooms. Mini-splits are a good option for homes without existing ductwork or for targeted cooling."
+          },
+          {
+            "question": "Do you offer financing options for AC installation?",
+            "answer": "Yes, we offer flexible financing options to make AC installation more affordable. Contact us to learn more about our financing plans."
+          }
+        ]
+      },
+      {
+        "slug": "heating-repair",
+        "name": "Heating Repair",
+        "shortDescription": "Expert heating repair services to keep your home warm and comfortable during winter.",
+        "description": "While Virginia Beach winters are mild, a reliable heating system is essential for those chilly nights. We provide comprehensive heating repair services for all types of systems, including furnaces, heat pumps, and boilers. Our technicians are trained to diagnose and repair common heating issues, such as pilot light problems, blower motor failures, and thermostat malfunctions. We understand the importance of a functioning heating system, especially for families with young children or elderly individuals. We prioritize emergency heating repairs to restore warmth to your home quickly. We also advise on preventative maintenance to avoid future breakdowns, ensuring your system is ready for the winter season.",
+        "process": [
+          "Step 1: Diagnose the heating system to identify the problem.",
+          "Step 2: Explain the repair options and provide a fair estimate.",
+          "Step 3: Perform the necessary repairs using quality parts.",
+          "Step 4: Test the system to ensure it is working correctly."
+        ],
+        "benefits": [
+          "Safe and reliable heating",
+          "Lower energy bills",
+          "Extended equipment lifespan",
+          "Improved indoor air quality"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my heating system serviced?",
+            "answer": "Annual maintenance is recommended to ensure your heating system operates efficiently and safely. Regular servicing can also prevent costly repairs."
+          },
+          {
+            "question": "What are the signs that my heating system needs repair?",
+            "answer": "Signs include unusual noises, inconsistent heating, and a yellow pilot light flame. If you notice any of these issues, contact us for an inspection."
+          },
+          {
+            "question": "Do you offer emergency heating repair services?",
+            "answer": "Yes, we offer 24/7 emergency heating repair services to restore heat to your home as quickly as possible."
+          }
+        ]
+      },
+      {
+        "slug": "heating-installation",
+        "name": "Heating Installation",
+        "shortDescription": "Professional heating installation for efficient and reliable warmth.",
+        "description": "Upgrading your heating system can significantly improve your home's comfort and energy efficiency. We offer professional heating installation services, helping you choose the right system for your needs and budget. Our technicians are experienced in installing furnaces, heat pumps, and boilers, ensuring proper sizing, installation, and venting. We consider the specific heating needs of Virginia Beach homes, including the moderate winter temperatures and the potential for coastal winds. We also handle the removal and disposal of your old heating system, adhering to all environmental regulations. A properly installed heating system will provide years of reliable warmth and energy savings.",
+        "process": [
+          "Step 1: Assess your heating needs and recommend the best system.",
+          "Step 2: Provide a detailed installation plan and upfront pricing.",
+          "Step 3: Install the heating system according to manufacturer specifications.",
+          "Step 4: Test the system and ensure it is functioning optimally."
+        ],
+        "benefits": [
+          "Improved energy efficiency",
+          "Consistent heating",
+          "Quieter operation",
+          "Increased home value"
+        ],
+        "faq": [
+          {
+            "question": "How do I choose the right heating system for my home?",
+            "answer": "We'll perform a thorough assessment of your home's heating needs to recommend the best system based on factors like square footage, insulation, and budget."
+          },
+          {
+            "question": "What are the benefits of upgrading to a high-efficiency heating system?",
+            "answer": "High-efficiency heating systems can significantly reduce your energy bills and lower your carbon footprint. They also provide more consistent and comfortable heating."
+          },
+          {
+            "question": "Do you offer financing options for heating installation?",
+            "answer": "Yes, we offer flexible financing options to make heating installation more affordable. Contact us to learn more about our financing plans."
+          }
+        ]
+      },
+      {
+        "slug": "duct-cleaning",
+        "name": "Duct Cleaning",
+        "shortDescription": "Improve your indoor air quality with professional duct cleaning services.",
+        "description": "Over time, dust, pollen, mold, and other contaminants can accumulate in your air ducts, impacting your indoor air quality and potentially triggering allergies or respiratory problems. Our professional duct cleaning services remove these contaminants, leaving you with cleaner, healthier air. We use specialized equipment and techniques to thoroughly clean your entire ductwork system, including supply and return ducts. We consider the older housing stock in areas like Ghent which may have never had duct cleaning services, and newer builds in places like Landstown with increased concern over new construction dust. Duct cleaning can also improve the efficiency of your HVAC system by allowing it to circulate air more freely. Breathe easier with our comprehensive duct cleaning services.",
+        "process": [
+          "Step 1: Inspect your ductwork to assess the level of contamination.",
+          "Step 2: Use specialized equipment to loosen and remove debris from the ductwork.",
+          "Step 3: Vacuum the ductwork to remove all contaminants.",
+          "Step 4: Sanitize the ductwork to prevent future mold growth."
+        ],
+        "benefits": [
+          "Improved indoor air quality",
+          "Reduced allergies and respiratory problems",
+          "Increased HVAC efficiency",
+          "Elimination of odors"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my ducts cleaned?",
+            "answer": "We recommend duct cleaning every 3-5 years, or more frequently if you have allergies, pets, or a recent renovation."
+          },
+          {
+            "question": "What are the signs that my ducts need to be cleaned?",
+            "answer": "Signs include visible dust buildup, musty odors, and increased allergy symptoms."
+          },
+          {
+            "question": "Is duct cleaning messy?",
+            "answer": "No, our technicians use specialized equipment to contain the dust and debris during the cleaning process, minimizing mess and disruption."
+          }
+        ]
+      },
+      {
+        "slug": "heat-pump-services",
+        "name": "Heat Pump Services",
+        "shortDescription": "Comprehensive heat pump services including repair, maintenance, and installation.",
+        "description": "Heat pumps are a popular choice for Virginia Beach homeowners due to their energy efficiency and ability to provide both heating and cooling. We offer a full range of heat pump services, including repair, maintenance, and installation. Our technicians are experienced in working with all makes and models of heat pumps, and we use quality parts and proven techniques to ensure lasting results. We understand the unique challenges of heat pumps in coastal environments, such as salt air corrosion and the need for regular coil cleaning. We also advise on proper maintenance to maximize efficiency and extend the lifespan of your heat pump. Whether you need a simple repair or a complete system replacement, we've got you covered.",
+        "process": [
+          "Step 1: Diagnose the heat pump to identify the problem.",
+          "Step 2: Explain the repair options and provide a fair estimate.",
+          "Step 3: Perform the necessary repairs using quality parts.",
+          "Step 4: Test the system to ensure it is working correctly in both heating and cooling modes."
+        ],
+        "benefits": [
+          "Energy-efficient heating and cooling",
+          "Year-round comfort",
+          "Lower energy bills",
+          "Environmentally friendly"
+        ],
+        "faq": [
+          {
+            "question": "How does a heat pump work?",
+            "answer": "A heat pump transfers heat from one place to another. In the winter, it extracts heat from the outside air and transfers it inside. In the summer, it reverses the process and removes heat from the inside air."
+          },
+          {
+            "question": "What are the benefits of a heat pump compared to a traditional furnace?",
+            "answer": "Heat pumps are more energy-efficient than traditional furnaces, which can lead to lower energy bills. They also provide both heating and cooling, eliminating the need for separate systems."
+          },
+          {
+            "question": "How often should I have my heat pump serviced?",
+            "answer": "We recommend annual maintenance to ensure your heat pump operates efficiently and reliably. Regular servicing can also prevent costly repairs."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Virginia Beach",
+        "slug": "virginia-beach-va",
+        "state": "VA",
+        "content": "Virginia Beach Air Conditioning & Heating is proud to serve the vibrant community of Virginia Beach, VA. We understand the unique climate challenges faced by residents and businesses here, from the humid summers to the occasional cold snap in winter. Our team is dedicated to providing reliable and efficient HVAC solutions tailored to your specific needs.\n\nWhether you require air conditioning repair, furnace installation, or routine maintenance, our experienced technicians are equipped to handle any HVAC issue. We are committed to delivering exceptional service and ensuring your complete satisfaction. We prioritize energy efficiency and offer a range of options to help you save money on your utility bills while keeping your home comfortable year-round.",
+        "localContext": "Known for its beautiful beaches and thriving tourism industry, Virginia Beach demands reliable HVAC systems to keep residents and visitors comfortable.",
+        "nearbyAreas": [
+          "Norfolk",
+          "Chesapeake",
+          "Portsmouth"
+        ]
+      },
+      {
+        "city": "Norfolk",
+        "slug": "norfolk-va",
+        "state": "VA",
+        "content": "Virginia Beach Air Conditioning & Heating extends its expert HVAC services to the city of Norfolk, VA. From historic homes to modern businesses, we understand the diverse needs of this community. Our team is committed to providing top-quality heating and cooling solutions, ensuring your comfort and well-being.\n\nWe offer a comprehensive range of services, including air conditioning repair, furnace installation, and preventative maintenance. Our skilled technicians are dedicated to delivering prompt and reliable service, minimizing downtime and maximizing the efficiency of your HVAC system. We also provide energy-efficient upgrades to help you reduce your carbon footprint and save money on your energy bills.",
+        "localContext": "As a major naval hub and home to several universities, Norfolk requires dependable HVAC services for its residents, businesses, and institutions.",
+        "nearbyAreas": [
+          "Virginia Beach",
+          "Chesapeake",
+          "Portsmouth"
+        ]
+      },
+      {
+        "city": "Chesapeake",
+        "slug": "chesapeake-va",
+        "state": "VA",
+        "content": "Virginia Beach Air Conditioning & Heating is pleased to offer our professional HVAC services to the growing community of Chesapeake, VA. We recognize the unique needs of homeowners and businesses in this area, and we are dedicated to providing reliable and efficient solutions that meet your specific requirements.\n\nOur experienced technicians are equipped to handle all your HVAC needs, from air conditioning repair and furnace installation to routine maintenance and indoor air quality solutions. We are committed to delivering exceptional service and ensuring your complete satisfaction. We also offer a variety of energy-efficient options to help you save money on your utility bills while improving your home's comfort.",
+        "localContext": "With a mix of suburban neighborhoods and commercial areas, Chesapeake relies on efficient HVAC systems to maintain comfort throughout the year.",
+        "nearbyAreas": [
+          "Virginia Beach",
+          "Norfolk",
+          "Suffolk"
+        ]
+      },
+      {
+        "city": "Portsmouth",
+        "slug": "portsmouth-va",
+        "state": "VA",
+        "content": "Virginia Beach Air Conditioning & Heating proudly serves the historic city of Portsmouth, VA, providing reliable and efficient HVAC services to residents and businesses alike. We understand the unique challenges of maintaining comfortable indoor environments in this area, and we are committed to delivering top-quality solutions that meet your specific needs.\n\nWhether you require air conditioning repair, furnace installation, or routine maintenance, our experienced technicians are equipped to handle any HVAC issue. We prioritize customer satisfaction and strive to exceed your expectations with every service call. We also offer energy-efficient upgrades to help you reduce your energy consumption and save money on your utility bills.",
+        "localContext": "Known for its naval history and historic architecture, Portsmouth requires reliable HVAC services to preserve its heritage and ensure the comfort of its residents.",
+        "nearbyAreas": [
+          "Norfolk",
+          "Chesapeake",
+          "Suffolk"
+        ]
+      },
+      {
+        "city": "Suffolk",
+        "slug": "suffolk-va",
+        "state": "VA",
+        "content": "Virginia Beach Air Conditioning & Heating is dedicated to providing exceptional HVAC services to the residents and businesses of Suffolk, VA. We understand the unique needs of this growing community, and we are committed to delivering reliable and efficient solutions that meet your specific requirements.\n\nOur experienced technicians are equipped to handle all your HVAC needs, from air conditioning repair and furnace installation to routine maintenance and indoor air quality solutions. We are committed to delivering prompt and professional service, ensuring your complete satisfaction. We also offer a variety of energy-efficient options to help you save money on your utility bills while improving your home's comfort.",
+        "localContext": "As a large and diverse city with a mix of rural and urban areas, Suffolk needs dependable HVAC services to serve its varied communities.",
+        "nearbyAreas": [
+          "Chesapeake",
+          "Portsmouth",
+          "Smithfield"
+        ]
+      },
+      {
+        "city": "Smithfield",
+        "slug": "smithfield-va",
+        "state": "VA",
+        "content": "Virginia Beach Air Conditioning & Heating is pleased to offer its expert HVAC services to the charming town of Smithfield, VA. We understand the unique needs of homeowners and businesses in this area, and we are dedicated to providing reliable and efficient solutions that meet your specific requirements.\n\nOur experienced technicians are equipped to handle all your HVAC needs, from air conditioning repair and furnace installation to routine maintenance and indoor air quality solutions. We are committed to delivering exceptional service and ensuring your complete satisfaction. We also offer a variety of energy-efficient options to help you save money on your utility bills while improving your home's comfort.",
+        "localContext": "Known for its ham and historic charm, Smithfield relies on efficient HVAC systems to maintain comfort in its homes and businesses.",
+        "nearbyAreas": [
+          "Suffolk",
+          "Newport News",
+          "Carrollton"
+        ]
+      },
+      {
+        "city": "Newport News",
+        "slug": "newport-news-va",
+        "state": "VA",
+        "content": "Virginia Beach Air Conditioning & Heating extends its reliable HVAC services to Newport News, VA. We understand the needs of this diverse community, offering everything from AC repair to new system installations. Our commitment is to ensure your home or business remains comfortable, no matter the season.\n\nOur team of certified technicians is equipped to handle all types of HVAC systems. We offer prompt, professional service and stand behind our work. We also provide energy-efficient solutions, helping you save on utility costs while reducing your environmental impact.",
+        "localContext": "As a major shipbuilding center and home to NASA Langley Research Center, Newport News needs dependable climate control for its residents and industries.",
+        "nearbyAreas": [
+          "Hampton",
+          "Yorktown",
+          "Smithfield"
+        ]
+      },
+      {
+        "city": "Hampton",
+        "slug": "hampton-va",
+        "state": "VA",
+        "content": "Virginia Beach Air Conditioning & Heating is proud to serve the community of Hampton, VA. We understand the unique climate challenges faced by residents and businesses and are committed to providing top-notch HVAC services to keep you comfortable year-round.\n\nFrom routine maintenance to emergency repairs, our skilled technicians are equipped to handle all your heating and cooling needs. We prioritize customer satisfaction and offer reliable, efficient solutions tailored to your specific requirements. We also offer energy-efficient upgrades to help you save money and reduce your carbon footprint.",
+        "localContext": "With a rich history and a vibrant waterfront, Hampton needs reliable HVAC services to maintain comfortable living and working environments",
+        "nearbyAreas": [
+          "Newport News",
+          "Poquoson",
+          "Yorktown"
+        ]
+      },
+      {
+        "city": "Poquoson",
+        "slug": "poquoson-va",
+        "state": "VA",
+        "content": "Virginia Beach Air Conditioning & Heating is pleased to bring our HVAC expertise to the city of Poquoson, VA. We understand the unique needs of homeowners and businesses in this coastal community, and we are committed to providing reliable and efficient solutions that meet your specific requirements.\n\nOur experienced technicians are equipped to handle all your HVAC needs, from air conditioning repair and furnace installation to routine maintenance and indoor air quality solutions. We are committed to delivering prompt and professional service, ensuring your complete satisfaction. We also offer a variety of energy-efficient options to help you save money on your utility bills while improving your home's comfort.",
+        "localContext": "A charming coastal city, Poquoson relies on dependable HVAC systems to combat humidity and maintain comfortable indoor environments.",
+        "nearbyAreas": [
+          "Hampton",
+          "Yorktown",
+          "Seaford"
+        ]
+      },
+      {
+        "city": "Yorktown",
+        "slug": "yorktown-va",
+        "state": "VA",
+        "content": "Virginia Beach Air Conditioning & Heating is dedicated to delivering top-quality HVAC services to the historic town of Yorktown, VA. We understand the unique needs of homeowners and businesses in this area, and we are committed to providing reliable and efficient solutions that meet your specific requirements.\n\nOur experienced technicians are equipped to handle all your HVAC needs, from air conditioning repair and furnace installation to routine maintenance and indoor air quality solutions. We are committed to delivering exceptional service and ensuring your complete satisfaction. We also offer a variety of energy-efficient options to help you save money on your utility bills while improving your home's comfort.",
+        "localContext": "Known for its pivotal role in the American Revolution, Yorktown needs reliable HVAC services to preserve its historic buildings and ensure the comfort of residents and visitors.",
+        "nearbyAreas": [
+          "Poquoson",
+          "Williamsburg",
+          "Seaford"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "AC Repair",
+        "text": "Our AC went out during a heatwave, and Virginia Beach Air Conditioning & Heating came to the rescue! They were fast, professional, and fixed the problem quickly. The technician, Mike, explained everything clearly and didn't try to upsell us on anything. Highly recommend!",
+        "date": "2025-07-15"
+      },
+      {
+        "name": "John B.",
+        "rating": 4,
+        "service": "Furnace Installation",
+        "text": "We recently had a new furnace installed by Virginia Beach Air Conditioning & Heating. The installation process was smooth and efficient. The team was respectful of our home and cleaned up after themselves. The new furnace is working great so far, and our house is much warmer this winter.",
+        "date": "2025-02-20"
+      },
+      {
+        "name": "Emily K.",
+        "rating": 5,
+        "service": "Duct Cleaning",
+        "text": "I was experiencing allergy symptoms, and a friend recommended duct cleaning. Virginia Beach Air Conditioning & Heating did an amazing job! The air in my house feels much cleaner, and my allergies have improved significantly. The technicians were thorough and professional.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "David S.",
+        "rating": 5,
+        "service": "AC Tune-Up",
+        "text": "We use Virginia Beach Air Conditioning & Heating for our annual AC tune-up. They are always on time, courteous, and do a great job of keeping our system running smoothly. Their prices are fair, and we appreciate their honesty and reliability.",
+        "date": "2025-05-10"
+      },
+      {
+        "name": "Lisa R.",
+        "rating": 4,
+        "service": "Heat Pump Repair",
+        "text": "Our heat pump stopped working, and Virginia Beach Air Conditioning & Heating was able to diagnose and repair the problem quickly. The technician was knowledgeable and explained the issue clearly. The repair was affordable, and we're happy to have our heat back!",
+        "date": "2024-12-01"
+      },
+      {
+        "name": "Tom H.",
+        "rating": 5,
+        "service": "Emergency AC Repair",
+        "text": "Called at 2am and they actually answered! AC was fixed by 4am. Unbelievable service.",
+        "date": "2025-08-03"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "HVAC Virginia Beach | AC & Heating",
+        "description": "Top-rated HVAC services in Virginia Beach, VA. AC repair, heating installation, duct cleaning. Call us for reliable comfort solutions!"
+      },
+      "about": {
+        "title": "About Us | Virginia Beach HVAC Experts",
+        "description": "Learn about Virginia Beach Air Conditioning & Heating: local experts, commitment to quality, and community focus."
+      },
+      "services": {
+        "title": "HVAC Services | Virginia Beach, VA",
+        "description": "Comprehensive HVAC services in Virginia Beach. AC repair, heating installation, duct cleaning. Contact us for a free quote!"
+      },
+      "contact": {
+        "title": "Contact Us | Virginia Beach HVAC",
+        "description": "Reach out to Virginia Beach Air Conditioning & Heating for fast, reliable HVAC services. Call us or fill out our online form."
+      },
+      "reviews": {
+        "title": "Customer Reviews | Virginia Beach HVAC",
+        "description": "Read what our satisfied customers are saying about Virginia Beach Air Conditioning & Heating. Honest reviews and testimonials."
+      },
+      "service-areas": {
+        "title": "HVAC Service Areas | Virginia Beach, VA",
+        "description": "Virginia Beach Air Conditioning & Heating provides HVAC services throughout Virginia Beach and surrounding areas. Check our service area map."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "air-conditioning-repair": "/images/service-air-conditioning-repair.webp",
+      "air-conditioning-installation": "/images/service-air-conditioning-installation.webp",
+      "heating-repair": "/images/service-heating-repair.webp",
+      "heating-installation": "/images/service-heating-installation.webp",
+      "duct-cleaning": "/images/service-duct-cleaning.webp",
+      "heat-pump-services": "/images/service-heat-pump-services.webp"
+    },
+    "servicesResponsive": {
+      "air-conditioning-repair": {
+        "src": "/images/service-air-conditioning-repair.webp",
+        "srcset": "/images/service-air-conditioning-repair-400w.webp 400w, /images/service-air-conditioning-repair-800w.webp 800w, /images/service-air-conditioning-repair-1200w.webp 1200w, /images/service-air-conditioning-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "air-conditioning-installation": {
+        "src": "/images/service-air-conditioning-installation.webp",
+        "srcset": "/images/service-air-conditioning-installation-400w.webp 400w, /images/service-air-conditioning-installation-800w.webp 800w, /images/service-air-conditioning-installation-1200w.webp 1200w, /images/service-air-conditioning-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "heating-repair": {
+        "src": "/images/service-heating-repair.webp",
+        "srcset": "/images/service-heating-repair-400w.webp 400w, /images/service-heating-repair-800w.webp 800w, /images/service-heating-repair-1200w.webp 1200w, /images/service-heating-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "heating-installation": {
+        "src": "/images/service-heating-installation.webp",
+        "srcset": "/images/service-heating-installation-400w.webp 400w, /images/service-heating-installation-800w.webp 800w, /images/service-heating-installation-1200w.webp 1200w, /images/service-heating-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "duct-cleaning": {
+        "src": "/images/service-duct-cleaning.webp",
+        "srcset": "/images/service-duct-cleaning-400w.webp 400w, /images/service-duct-cleaning-800w.webp 800w, /images/service-duct-cleaning-1200w.webp 1200w, /images/service-duct-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "heat-pump-services": {
+        "src": "/images/service-heat-pump-services.webp",
+        "srcset": "/images/service-heat-pump-services-400w.webp 400w, /images/service-heat-pump-services-800w.webp 800w, /images/service-heat-pump-services-1200w.webp 1200w, /images/service-heat-pump-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
